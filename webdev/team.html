@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Team - Sailor Bootstrap Template</title>
+  <title>Regional Center of Robotics Technology</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo_regional_center_square.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -42,38 +42,42 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Sailor</a></h1>
+      <!-- <h1 class="logo me-auto"><a href="index.html">Sailor</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto">
+          <div class="w-125">
+            <img src="assets/img/logo_regional_center_square_v3.png" alt="" class="img-fluid">
+          </div>
+      </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="about.html">About</a></li>
-              <li><a href="team.html" class="active">Team</a></li>
+              <li><a href="team.html">Team</a></li>
               <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="alumni.html">Alumni</a></li>
 
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
+              
             </ul>
           </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Laboratory </span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="control_lab.html">Control Automation and Robotics Lab</a></li>
+              <!-- <li><a href="#">Advanced Design & Manufacturing Lab</a></li> -->
+            </ul>
+          </li>
+
+          </li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <li><a href="master&phd.html" class = "text-center">Master & Ph.D Program</a></li>
+          <li><a href="blog.html" class = "text-center">Paper & Publication</a></li>
 
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="index.html" class="getstarted">Get Started</a></li>
+          <!-- <li><a href="index.html" class="getstarted">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -100,8 +104,11 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team ">
-      <div class="container">
+      <div class="container" >
 
+        <div class="section-title" style="padding: 10 px;">
+          <h2 style = "font-size: 25px;">Advisor</h2>
+        </div>
         <div class="row">
 
           <div class="col-lg-6">
@@ -110,7 +117,37 @@
               <div class="member-info">
                 <h4>Prof.Dr. Viboon Sangveraphunsiri</h4>
                 <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat</p>
+                <p style = "">Area of Interest</p>
+               
+                <p>
+                <div class = "row">
+                  <div class="col-lg-5">
+                    <ul>
+                      <li>CAD/CAM</li>
+                      <li>Robotics</li>
+                      <li>Signal Processing</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-7">
+                    <ul>
+                      <li>System Identification</li>
+                      <li>Control of Dynamics Systems</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="read-more">
+                  <a href="blog-single.html">Read More</a>
+                </div>
+              </p>
+              <!-- <p>Education</p>
+              <div class = "row"> 
+                <ul>
+                  <li>Ph.D. in Mechanical Engineering from Georgia Institue of Technology, USA.</li>
+                  <li>M.S.M.E. in Mechanical Engineering from Georgia Institue of Technology, USA.</li>
+                  <li>Signal Processing</li>
+                </ul>
+              </div> -->
+
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -118,14 +155,26 @@
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
+
             </div>
           </div>
+        </div>
+        
+      </section>
+        <section id="team" class="team " style="padding: 2 px;" >
+          <div class="container" style="padding: 2 px;" >
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="section-title" style="padding: 5 px;">
+              <h2 style = "font-size: 25px ;">Ph.D Candidatures and Research Staffs </h2>
+            </div>
+          <div class="row">
+       
+
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Dr. Anan Sutapun</h4>
                 <span>Product Manager</span>
                 <p>Aut maiores voluptates amet et quis</p>
                 <div class="social">
@@ -142,8 +191,8 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Mr. Maitai Dahlan</h4>
+                <span>Ph.D Candidate</span>
                 <p>Quisquam facilis cum velit laborum corrupti</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
@@ -154,13 +203,14 @@
               </div>
             </div>
           </div>
-
+        </div>
+         
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Mr. Ditsakorn Wanichratanagul</h4>
+                <span>Ph.D Candidate</span>
                 <p>Dolorum tempora officiis odit laborum officiis</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
@@ -171,11 +221,113 @@
               </div>
             </div>
           </div>
-
-        </div>
+          
+          
+          
 
       </div>
-    </section><!-- End Team Section -->
+    </div>
+    </section>
+    
+    <section id="team" class="team " style="padding: 2 px;" >
+      <div class="container"  >
+
+        <div class="section-title" style="padding: 5 px;">
+          <h2 style = "font-size: 25px ;">Master Degree Students</h2>
+        </div>
+      
+
+
+
+      <div class="row">
+       
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Dr. Anan Sutapun</h4>
+              <span>Product Manager</span>
+              <p>Aut maiores voluptates amet et quis</p>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Mr. Maitai Dahlan</h4>
+              <span>Ph.D Candidate</span>
+              <p>Quisquam facilis cum velit laborum corrupti</p>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Mr. Maitai Dahlan</h4>
+              <span>Ph.D Candidate</span>
+              <p>Quisquam facilis cum velit laborum corrupti</p>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Mr. Maitai Dahlan</h4>
+              <span>Ph.D Candidate</span>
+              <p>Quisquam facilis cum velit laborum corrupti</p>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+    <!-- End Team Section -->
 
   </main><!-- End #main -->
 
